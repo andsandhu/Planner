@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HUHU Folder Content</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed-dim": "#84d4d3",
+              "on-tertiary-fixed": "#002020",
+              "tertiary": "#005050",
+              "surface-bright": "#faf9fc",
+              "secondary": "#456080",
+              "outline": "#737785",
+              "on-secondary-fixed-variant": "#2d4867",
+              "on-primary": "#ffffff",
+              "on-error": "#ffffff",
+              "inverse-primary": "#b2c5ff",
+              "surface-container": "#eeedf1",
+              "surface-container-low": "#f4f3f6",
+              "secondary-container": "#bed9ff",
+              "primary": "#0040a1",
+              "on-secondary": "#ffffff",
+              "surface-variant": "#e2e2e5",
+              "on-secondary-fixed": "#001d36",
+              "tertiary-fixed": "#a0f0f0",
+              "on-error-container": "#93000a",
+              "surface-container-highest": "#e2e2e5",
+              "inverse-on-surface": "#f1f0f4",
+              "on-primary-container": "#ccd8ff",
+              "surface-tint": "#0056d2",
+              "on-surface-variant": "#424654",
+              "on-tertiary-container": "#97e7e6",
+              "error-container": "#ffdad6",
+              "outline-variant": "#c3c6d6",
+              "on-primary-fixed": "#001847",
+              "on-secondary-container": "#445f7f",
+              "surface-dim": "#dadadd",
+              "secondary-fixed": "#d1e4ff",
+              "on-background": "#1a1c1e",
+              "tertiary-container": "#006a6a",
+              "error": "#ba1a1a",
+              "on-surface": "#1a1c1e",
+              "primary-fixed-dim": "#b2c5ff",
+              "on-tertiary": "#ffffff",
+              "primary-fixed": "#dae2ff",
+              "on-tertiary-fixed-variant": "#004f4f",
+              "on-primary-fixed-variant": "#0040a1",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed-dim": "#adc9ed",
+              "surface-container-high": "#e8e8eb",
+              "inverse-surface": "#2f3033",
+              "surface": "#faf9fc",
+              "primary-container": "#0056d2",
+              "background": "#faf9fc"
+            },
+            fontFamily: {
+              "headline": ["Inter"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .checklist-item:has(input:checked) span {
+            text-decoration: line-through;
+            opacity: 0.5;
+        }
+        .checklist-item:has(input:checked) .check-box {
+            background-color: var(--folder-accent, #0040a1);
+            border-color: var(--folder-accent, #0040a1);
+        }
+        .custom-checkbox:checked {
+            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface font-body text-on-surface min-h-screen pb-32">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 flex flex-col items-center justify-center py-4 px-6 bg-[#faf9fc] dark:bg-[#1a1c1e]">
+<div class="flex items-center justify-between w-full max-w-2xl">
+<button class="p-2 hover:bg-[#eeedf1] dark:hover:bg-[#33353b] transition-colors rounded-full active:scale-95 duration-150">
+<span class="material-symbols-outlined text-[#0040a1] dark:text-[#dbe1ff]">arrow_back</span>
+</button>
+<div class="flex flex-col items-center">
+<h1 class="text-2xl font-black tracking-tighter italic text-[#0040a1] dark:text-[#dbe1ff]">HUHU</h1>
+<span class="text-[10px] uppercase tracking-widest Inter opacity-70 text-[#424654] dark:text-[#c3c6d6]">Help Us To Help You Powered by SEFSYS</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center overflow-hidden border-2 border-primary/10">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="professional headshot of a smiling man with clean background, soft studio lighting, corporate style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6j5ffAsnlbt9XaeVTE-xTBjcXbetjuaXOvLv9LJNBa9-ie3nfQ9wfNGFmf3PQPu1xtOk68-_7LSFsFeiu_AwJXp9SVu18qcuLH2fS3hLJfT0QSojg4BkcbnWNYxjmfwygRvslH9qrZDb8VRGgjgwOO1YVBV-0b-FCGcZ6a0kfU3g6ojPSqpvvWOjgJDtjFuobJQ5dVo51_U8C8SiivHQrTCGs35SIbbGXjjeHLk083jJRFa7KkizvFAQrrWZ-6cDLoSLUwpwNGA"/>
+</div>
+</div>
+<div class="bg-[#eeedf1] dark:bg-[#33353b] h-[1px] opacity-20 w-full mt-4"></div>
+</header>
+<main class="mt-28 px-6 max-w-2xl mx-auto">
+<!-- Folder Hero Section -->
+<section class="mb-8">
+<div class="flex items-end justify-between mb-2">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-primary opacity-60 mb-1 block">Active Folder</span>
+<h2 class="text-5xl font-black tracking-tighter text-on-surface leading-none">Weekly Grocery</h2>
+</div>
+<div class="flex flex-col items-end">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+<span class="text-[10px] font-medium opacity-50 mt-1">Synced</span>
+</div>
+</div>
+<div class="h-1.5 w-24 bg-primary rounded-full"></div>
+</section>
+<!-- Reminder Quick Settings -->
+<section class="bg-surface-container-low rounded-[2rem] p-6 mb-8 border border-outline-variant/10">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">notifications_active</span>
+</div>
+<div>
+<h3 class="font-bold text-on-surface">Reminder Alert</h3>
+<p class="text-xs text-on-surface-variant">Get notified for pending items</p>
+</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="bg-surface-container p-4 rounded-2xl flex items-center justify-between">
+<span class="text-sm font-medium text-on-surface-variant">Reminder Tone</span>
+<div class="flex items-center gap-2">
+<span class="text-sm font-bold text-primary">Gentle Ripple</span>
+<span class="material-symbols-outlined text-sm text-on-surface-variant">chevron_right</span>
+</div>
+</div>
+</section>
+<!-- Checklist Section -->
+<section>
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-xl font-bold tracking-tight text-on-surface">Checklist</h3>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[11px] font-bold rounded-full">4 Items Left</span>
+</div>
+<div class="space-y-3">
+<!-- Checklist Items -->
+<div class="checklist-item flex items-center gap-4 p-5 bg-surface-container-lowest rounded-2xl transition-all hover:bg-surface-container border border-outline-variant/5">
+<input class="custom-checkbox w-6 h-6 rounded-lg border-2 border-primary text-primary focus:ring-0 cursor-pointer appearance-none checked:bg-primary" type="checkbox"/>
+<span class="flex-grow font-medium text-on-surface">Organic Almond Milk</span>
+<span class="material-symbols-outlined text-on-surface-variant/40 text-sm">drag_indicator</span>
+</div>
+<div class="checklist-item flex items-center gap-4 p-5 bg-surface-container-lowest rounded-2xl transition-all hover:bg-surface-container border border-outline-variant/5">
+<input class="custom-checkbox w-6 h-6 rounded-lg border-2 border-primary text-primary focus:ring-0 cursor-pointer appearance-none checked:bg-primary" type="checkbox"/>
+<span class="flex-grow font-medium text-on-surface">Avocados (3 units)</span>
+<span class="material-symbols-outlined text-on-surface-variant/40 text-sm">drag_indicator</span>
+</div>
+<div class="checklist-item flex items-center gap-4 p-5 bg-surface-container-lowest rounded-2xl transition-all hover:bg-surface-container border border-outline-variant/5">
+<input checked="" class="custom-checkbox w-6 h-6 rounded-lg border-2 border-primary text-primary focus:ring-0 cursor-pointer appearance-none checked:bg-primary" type="checkbox"/>
+<span class="flex-grow font-medium text-on-surface">Whole Grain Bread</span>
+<span class="material-symbols-outlined text-on-surface-variant/40 text-sm">drag_indicator</span>
+</div>
+<div class="checklist-item flex items-center gap-4 p-5 bg-surface-container-lowest rounded-2xl transition-all hover:bg-surface-container border border-outline-variant/5">
+<input class="custom-checkbox w-6 h-6 rounded-lg border-2 border-primary text-primary focus:ring-0 cursor-pointer appearance-none checked:bg-primary" type="checkbox"/>
+<span class="flex-grow font-medium text-on-surface">Greek Yogurt (Blueberry)</span>
+<span class="material-symbols-outlined text-on-surface-variant/40 text-sm">drag_indicator</span>
+</div>
+<!-- Add New Item Button -->
+<button class="w-full mt-4 py-5 flex items-center justify-center gap-2 border-2 border-dashed border-outline-variant rounded-2xl text-on-surface-variant hover:bg-primary/5 hover:border-primary transition-colors group">
+<span class="material-symbols-outlined group-hover:text-primary">add_circle</span>
+<span class="font-bold text-sm uppercase tracking-wider group-hover:text-primary">Add List Item</span>
+</button>
+</div>
+</section>
+<!-- Descriptive Graphic -->
+<section class="mt-12 opacity-80">
+<div class="relative w-full h-48 rounded-[2rem] overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
+<img alt="Fresh Produce" class="w-full h-full object-cover" data-alt="vibrant overhead shot of assorted fresh vegetables and fruits in a market, warm cinematic lighting, rich colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkNhYf1ftQOJHSF5GRnxEWwTELrGnpbkdMiO_Ne5bgtox188NKxXFcy9BfHDwCpeFYL2wBO0DFbPDPDCx6tH24hKWBjklO-qGt0KNQNShOq9b0xFXN8mpJM-v-E3BipIui9RSKlHuh4anb9gTPBjMwvk56hVBpfVBon_-N3bhJwLrN42mn8HaD6ocaLbZ4T9KtQsOCbhbk2uoLU9pvxtjiRcLe1aCohnq6dL_rh951daZeecMNX2sNbQiR6ysdSh6LlSW2FWZZVQ"/>
+<div class="absolute bottom-6 left-6 z-20">
+<h4 class="text-white font-black text-xl tracking-tight">Stay Fresh</h4>
+<p class="text-white/80 text-xs">Your health is your primary asset.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-[#faf9fc]/80 dark:bg-[#1a1c1e]/80 backdrop-blur-xl shadow-[0_-12px_40px_rgba(26,28,30,0.06)] rounded-t-[2rem]">
+<button class="flex flex-col items-center justify-center text-[#424654] dark:text-[#c3c6d6] px-5 py-2 hover:text-[#0040a1] dark:hover:text-white group">
+<span class="material-symbols-outlined">folder</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center bg-[#bed9ff] dark:bg-[#0040a1] text-[#001d4d] dark:text-[#dbe1ff] rounded-2xl px-5 py-2 scale-90 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Calendar</span>
+</button>
+<button class="flex flex-col items-center justify-center text-[#424654] dark:text-[#c3c6d6] px-5 py-2 hover:text-[#0040a1] dark:hover:text-white group">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Settings</span>
+</button>
+</nav>
+<!-- Floating Action Button for Adding Task -->
+<button class="fixed bottom-28 right-6 w-16 h-16 rounded-[1.5rem] bg-gradient-to-br from-primary to-primary-container text-white shadow-xl flex items-center justify-center active:scale-95 transition-transform z-40">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</body></html>

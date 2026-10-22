@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HUHU - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed-dim": "#84d4d3",
+              "on-tertiary-fixed": "#002020",
+              "tertiary": "#005050",
+              "surface-bright": "#faf9fc",
+              "secondary": "#456080",
+              "outline": "#737785",
+              "on-secondary-fixed-variant": "#2d4867",
+              "on-primary": "#ffffff",
+              "on-error": "#ffffff",
+              "inverse-primary": "#b2c5ff",
+              "surface-container": "#eeedf1",
+              "surface-container-low": "#f4f3f6",
+              "secondary-container": "#bed9ff",
+              "primary": "#0040a1",
+              "on-secondary": "#ffffff",
+              "surface-variant": "#e2e2e5",
+              "on-secondary-fixed": "#001d36",
+              "tertiary-fixed": "#a0f0f0",
+              "on-error-container": "#93000a",
+              "surface-container-highest": "#e2e2e5",
+              "inverse-on-surface": "#f1f0f4",
+              "on-primary-container": "#ccd8ff",
+              "surface-tint": "#0056d2",
+              "on-surface-variant": "#424654",
+              "on-tertiary-container": "#97e7e6",
+              "error-container": "#ffdad6",
+              "outline-variant": "#c3c6d6",
+              "on-primary-fixed": "#001847",
+              "on-secondary-container": "#445f7f",
+              "surface-dim": "#dadadd",
+              "secondary-fixed": "#d1e4ff",
+              "on-background": "#1a1c1e",
+              "tertiary-container": "#006a6a",
+              "error": "#ba1a1a",
+              "on-surface": "#1a1c1e",
+              "primary-fixed-dim": "#b2c5ff",
+              "on-tertiary": "#ffffff",
+              "primary-fixed": "#dae2ff",
+              "on-tertiary-fixed-variant": "#004f4f",
+              "on-primary-fixed-variant": "#0040a1",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed-dim": "#adc9ed",
+              "surface-container-high": "#e8e8eb",
+              "inverse-surface": "#2f3033",
+              "surface": "#faf9fc",
+              "primary-container": "#0056d2",
+              "background": "#faf9fc"
+            },
+            fontFamily: {
+              "headline": ["Inter"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .signature-gradient {
+            background: linear-gradient(135deg, #0040a1 0%, #0056d2 100%);
+        }
+        .glass-header {
+            background: rgba(250, 249, 252, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex flex-col items-center justify-center py-4 px-6 glass-header">
+<div class="flex items-center justify-between w-full max-w-4xl">
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-[#eeedf1] dark:hover:bg-[#33353b] transition-colors rounded-full active:scale-95 duration-150">
+<span class="material-symbols-outlined text-[#0040a1] dark:text-[#dbe1ff]">menu</span>
+</button>
+<div class="flex flex-col items-start">
+<h1 class="text-5xl font-black tracking-tighter Inter text-[#0040a1] dark:text-[#dbe1ff] italic leading-none">HUHU</h1>
+<span class="text-[10px] uppercase tracking-widest Inter opacity-70 font-medium mt-1">Help Us To Help You</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden border-2 border-white shadow-sm">
+<img class="w-full h-full object-cover" data-alt="professional headshot of a friendly user with a soft bokeh background and warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD01NLZM0hvOUXipT81xL-T2nJksD7AX2eXW9b4hwktgm4XdqWB3Mo8bywn6wVuiMK8Cr_QdIa9EGsee7eKFavAEUeH-mCbbtFXbXZ6dtkZqKGCLDub6pIyw8nN2kgVmkbCbcuuDTdX3ogkztMgMU6XFAqHwqrmP0O65oL8COE2ohUHJ69-iEGf_EzbOajt3jFtse5j9bqtF3iwdukLF4hoUq2kGPcvOy5iL8X_6bs3Fg8kbfpsyRudQBFHNt_YqNajrGvu8jFFQ"/>
+</div>
+</div>
+<div class="bg-[#eeedf1] dark:bg-[#33353b] h-[1px] opacity-20 w-full mt-4"></div>
+</header>
+<main class="pt-32 px-6 max-w-4xl mx-auto">
+<!-- Welcome Section -->
+<section class="mb-12">
+<h2 class="text-[3.5rem] font-black tracking-tight leading-tight mb-2 text-on-surface">Your Workspace</h2>
+<div class="w-12 h-1 bg-surface-tint rounded-full mb-6"></div>
+<p class="text-on-surface-variant body-md max-w-md">Organize your thoughts, set reminders, and stay on top of your architecture.</p>
+</section>
+<!-- Bento Grid of Folders -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+<!-- Folder Card: Personal -->
+<div class="bg-surface-container-low rounded-xl p-6 flex flex-col gap-4 relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-2 h-full bg-primary-container"></div>
+<div class="flex justify-between items-start">
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-primary mb-1 block">Active Project</span>
+<h3 class="text-2xl font-bold text-on-surface">Daily Rituals</h3>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">more_vert</span>
+</div>
+<div class="flex flex-col gap-2 bg-surface-container-lowest p-4 rounded-lg">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm text-surface-tint" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-sm text-on-surface-variant line-through">Morning meditation</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm text-outline">radio_button_unchecked</span>
+<span class="text-sm text-on-surface">Architectural review (3:00 PM)</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mt-auto">
+<div class="flex items-center gap-1 bg-secondary-container px-3 py-1 rounded-full text-[11px] font-medium text-on-secondary-container">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+<span>Today</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-high px-3 py-1 rounded-full text-[11px] font-medium text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">notifications</span>
+<span>Zen Tune</span>
+</div>
+</div>
+</div>
+<!-- Folder Card: Work -->
+<div class="bg-surface-container-low rounded-xl p-6 flex flex-col gap-4 relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-2 h-full bg-tertiary"></div>
+<div class="flex justify-between items-start">
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-tertiary mb-1 block">Work</span>
+<h3 class="text-2xl font-bold text-on-surface">HUHU Design</h3>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">more_vert</span>
+</div>
+<div class="flex flex-col gap-2 bg-surface-container-lowest p-4 rounded-lg">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-sm text-on-surface-variant line-through">System audit</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm text-outline">radio_button_unchecked</span>
+<span class="text-sm text-on-surface">Update color tokens</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 mt-auto">
+<div class="flex items-center gap-1 bg-tertiary-fixed px-3 py-1 rounded-full text-[11px] font-medium text-on-tertiary-fixed-variant">
+<span class="material-symbols-outlined text-[14px]">event_repeat</span>
+<span>Weekly</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-high px-3 py-1 rounded-full text-[11px] font-medium text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">volume_up</span>
+<span>Beep</span>
+</div>
+</div>
+</div>
+<!-- Folder Card: Health (Small Variant) -->
+<div class="bg-surface-container-low rounded-xl p-6 flex flex-col gap-4 relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-2 h-full bg-error"></div>
+<div class="flex justify-between items-start">
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-error mb-1 block">Personal</span>
+<h3 class="text-2xl font-bold text-on-surface">Health &amp; Gym</h3>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">more_vert</span>
+</div>
+<div class="flex items-center gap-2 mt-2">
+<div class="h-1.5 flex-1 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-error w-3/4"></div>
+</div>
+<span class="text-[11px] font-bold text-on-surface-variant">75%</span>
+</div>
+<div class="flex flex-wrap gap-2 mt-auto">
+<div class="flex items-center gap-1 bg-error-container px-3 py-1 rounded-full text-[11px] font-medium text-on-error-container">
+<span class="material-symbols-outlined text-[14px]">alarm</span>
+<span>06:00 AM</span>
+</div>
+</div>
+</div>
+<!-- Empty State / Add Suggestion Card -->
+<div class="border-2 border-dashed border-outline-variant rounded-xl p-6 flex flex-col items-center justify-center text-center gap-3 opacity-60 hover:opacity-100 transition-opacity cursor-pointer">
+<span class="material-symbols-outlined text-4xl text-outline">create_new_folder</span>
+<div>
+<h3 class="font-bold text-on-surface">New Strategy</h3>
+<p class="text-xs text-on-surface-variant">Build your next big idea</p>
+</div>
+</div>
+</div>
+<!-- Reminders List Section -->
+<section class="mt-16">
+<div class="flex items-center justify-between mb-8">
+<h2 class="headline-sm font-bold text-on-surface">Upcoming Alerts</h2>
+<button class="text-primary font-bold text-sm tracking-wide">View All</button>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between p-4 bg-surface-container rounded-xl">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">notifications_active</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Architectural review</p>
+<p class="text-xs text-on-surface-variant">Today at 3:00 PM • Zen Tune</p>
+</div>
+</div>
+<button class="p-2 text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+<div class="flex items-center justify-between p-4 bg-surface-container rounded-xl">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">update</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">System audit</p>
+<p class="text-xs text-on-surface-variant">Tomorrow at 9:00 AM • Beep</p>
+</div>
+</div>
+<button class="p-2 text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- FAB: Add Folder -->
+<button class="fixed bottom-28 right-6 w-16 h-16 signature-gradient text-white rounded-2xl shadow-xl flex items-center justify-center active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-[#faf9fc]/80 dark:bg-[#1a1c1e]/80 backdrop-blur-xl shadow-[0_-12px_40px_rgba(26,28,30,0.06)] rounded-t-[2rem]">
+<!-- Active: Home -->
+<a class="flex flex-col items-center justify-center bg-[#bed9ff] dark:bg-[#0040a1] text-[#001d4d] dark:text-[#dbe1ff] rounded-2xl px-5 py-2 scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">folder</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Home</span>
+</a>
+<!-- Inactive: Calendar -->
+<a class="flex flex-col items-center justify-center text-[#424654] dark:text-[#c3c6d6] px-5 py-2 hover:text-[#0040a1] dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">calendar_today</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Calendar</span>
+</a>
+<!-- Inactive: Settings -->
+<a class="flex flex-col items-center justify-center text-[#424654] dark:text-[#c3c6d6] px-5 py-2 hover:text-[#0040a1] dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-[11px] font-medium Inter tracking-normal mt-1">Settings</span>
+</a>
+</nav>
+</body></html>

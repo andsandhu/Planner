@@ -1,0 +1,6 @@
+{
+  "appId": "com.stitch.huhu",
+  "appName": "Stitch Huhu",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
